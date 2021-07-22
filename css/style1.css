@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*styles for nav bar*/
+nav{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(99, 59, 31);
+    position: fixed;
+    z-index: 2;
+
+}
+.logo img{
+    padding-left: 20px;
+    width: 25%;
+    height: 70%;
+}
+.links{
+    padding-right: 10px;
+}
+.links ul li a{
+ text-decoration: none;
+ list-style-type: none;
+ 
+}
+
+.links ul li{
+    display: inline;
+    padding: 20px;
+}
+
+div.links,div.logo{
+    display:inline-block;
+    
+ 
+}
+.logo{
+    padding: 30px;
+}
+.links {
+    float: right;
+    padding: 60px;
+    padding-right: 200px;
+}
+.links ul li a{
+    color: rgb(146, 121, 121);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.home{
+
+    height: 100%;
+    width: 100%;
+}
+/*search bar*/
+.search-box{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.548) ;
+  
+    
+   
+
+}
+.boxContainer{
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    width: 400px;
+    height: 42px;
+    border: 4px solid rgb(99, 59, 31) ;
+    padding: 0px 10px;
+    border-radius:50px ;
+    background-color: rgb(99, 59, 31);
+   
+    
+
+}
+.elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    z-index: -1;
+   
+    
+    
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 59, 31);
+    font-weight: 500;
+    background-color: transparent;
+    
+}
+.search:focus{
+    outline: none;
+    background-color: white;
+}
+.material-icons{
+    font-size: 25;
+    color:white;
+}
+/*Explore foods*/
+.explore{
+    width: 100%;
+    height: auto;
+
+    margin-top: 45%;
+}
+.explore table.explore-foods img{
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.explore h1{
+    margin-left: 650px;
+}
+table.explore-foods{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.explore table.explore-foods p{
+    margin-top: -50px;
+    margin-left: 180px;
+    font-size: 30px;
+    color: white;
+}
+/*food menu*/
+div.food-menu{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+    background-color:rgba(185, 178, 178, 0.527);
+}
+div.food-menu table.food{
+    width: 1000px;
+    margin-left: 250px;
+}
+.div-food img{
+height: 100px;
+width: 100px;
+border-radius: 10px;
+}
+.div-food
+{
+    background-color: white;
+
+    border-radius: 10px;
+    
+    color: black;
+}
+p.cap{
+    font-size: 40px;
+    padding-left: 650px;
+    padding-top: 50px;
+}
+.div-food button{
+    background: transparent;
+    background-color:rgb(99, 59, 31) ;
+    border: 0;
+    padding: 5;
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.div-food button:hover{
+    background-color:rgb(138, 67, 13) ;
+}
+.food-menu a{
+    margin-left: 690px;
+    color:rgb(138, 67, 13) ;
+}
+footer{
+    width: 100%;
+    height: 20%;
+   
+}
+footer img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.f-para{
+    margin-top: 20px;
+    margin-left: 650px;
+}
+/*categories page*/
+.cat-Explores table.Categories img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    
+  }
+  table.Categories{
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.cat-Explores table.Categories p{
+    margin-top: -50px;
+    margin-left: 150px;
+    font-size: 30px;
+    color: white;
+}
+/*foods page*/
+div.food{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    background-color:rgba(185, 178, 178, 0.527);
+}
+div.food table.food-menu{
+    width: 1000px;
+    margin-left: 250px;
+}
+.div-food img{
+height: 100px;
+width: 100px;
+border-radius: 10px;
+}
+.div-food
+{
+    background-color: white;
+
+    border-radius: 10px;
+    
+    color: black;
+}
+p.cap{
+    font-size: 40px;
+    padding-left: 650px;
+    padding-top: 50px;
+}
+.div-food button{
+    background: transparent;
+    background-color:rgb(99, 59, 31) ;
+    border: 0;
+    padding: 5;
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.div-food button:hover{
+    background-color:rgb(138, 67, 13) ;
+}
+.food a{
+    margin-left: 690px;
+    color:rgb(138, 67, 13) ;
+}
+
+
